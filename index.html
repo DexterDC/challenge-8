@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <div class="container m-auto font-[Montserrat] w-5/6 md:w-1/2 lg:w-5/6">
+        <div class="lg:grid grid-cols-1 gap-5 m-5">
+            <div class="lg:grid grid-cols-6 grid-rows-6 gap-5">
+                <div class="col-span-2 row-span-2">
+                    <!-- Info profile -->
+                    <div class="shadow-lg rounded-xl p-5">
+                        <div class="w-full h-[38rem]">
+                            <img src="img/profile.jpg" alt="" class="rounded-2xl h-full w-full object-cover">
+                        </div>
+                        <div class="flex flex-col gap-5 m-5">
+                            <div class="flex flex-col gap-1">
+                                <h2 class="text-2xl font-semibold">Billy Pearson</h2>
+                                <p class="text-[#828282]">Front-end developer</p>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <div class="flex gap-2">
+                                    <span class="material-icons text-[#4F4F4F]">email</span>
+                                    <p>billy@example.com</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <span class="material-icons text-[#4F4F4F]">phone</span>
+                                    <p>(+603) 546 624 342</p>
+                                </div>
+                            </div>
+                            <div class="text-[#828282] w-auto leading-6 text-lg">
+                                <p>Self-motivated developer, who is willing to learn and create outstanding UI
+                                    applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-4 row-span-1 lg:grid grid-cols-4 grid-rows-1 gap-5">
+                    <div class="col-span-2 row-span-2">
+                        <!-- Progress -->
+                        <div class="shadow-lg rounded-xl p-5">
+                            <h1 class="uppercase text-lg font-bold m-5">Front end</h1>
+                            <div class="flex flex-col lg:flex-row lg:flex-wrap justify-between m-5">
+                                <p class="w-28">React</p>
+                                <progress max="100" value="70" class="rounded-lg h-3"></progress>
+                            </div>
+                            <div class="flex flex-col lg:flex-row lg:flex-wrap justify-between m-5">
+                                <p class="w-28">Javascript</p>
+                                <progress max="100" value="80" class="rounded-lg h-3"></progress>
+                            </div>
+                            <div class="flex flex-col lg:flex-row lg:flex-wrap justify-between m-5">
+                                <p class="w-28">CSS</p>
+                                <progress max="100" value="90" class="rounded-lg h-3"></progress>
+                            </div>
+                            <div class="flex flex-col lg:flex-row lg:flex-wrap justify-between m-5">
+                                <p class="w-28">Vue</p>
+                                <progress max="100" value="70" class="rounded-lg h-3"></progress>
+                            </div>
+                            <div class="flex flex-col lg:flex-row lg:flex-wrap justify-between m-5">
+                                <p class="w-28">Redux</p>
+                                <progress max="100" value="80" class="rounded-lg h-3"></progress>
+                            </div>
+                            <div class="flex flex-col lg:flex-row lg:flex-wrap justify-between m-5">
+                                <p class="w-28">React Native</p>
+                                <progress max="100" value="90" class="rounded-lg h-3"></progress>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-2 row-span-1">
+                        <!-- Second progress -->
+                        <div class="shadow-lg rounded-xl p-5">
+                            <h1 class="uppercase text-lg font-bold m-5">Design</h1>
+                            <div class="flex flex-col lg:flex-row lg:flex-wrap justify-between m-5  flex-wrap">
+                                <p class="w-28">Figma</p>
+                                <progress max="100" value="60" class="rounded-lg h-3"></progress>
+                            </div>
+                            <div class="flex flex-col lg:flex-row lg:flex-wrap justify-between m-5 flex-wrap">
+                                <p class="w-28">Photoshop</p>
+                                <progress max="100" value="80" class="rounded-lg h-3"></progress>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-4 row-span-1">
+                        <!-- Project bar -->
+                        <div class="shadow-lg rounded-xl">
+                            <h1 class="text-lg m-5 p-3">Projects (3)</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-4 row-span-1">
+                    <!-- Recipe Blog -->
+                    <div class="shadow-lg rounded-xl p-2 mb-5 h-ful">
+                        <div class="lg:flex justify-between items-center">
+                            <div class="m-5 lg:w-1/2 lg:h-96">
+                                <img src="img/blog.png" alt=""
+                                    class="rounded-xl lg:h-full lg:w-full lg:object-cover lg:object-top">
+                            </div>
+                            <div class="flex flex-col gap-5 p-5 lg:w-2/3">
+                                <p class="text-[#333333]">#HTML #CSS #responsive</p>
+                                <div>
+                                    <p class="text-2xl">Recipe Blog</p>
+                                    <p class="text-[#333333]">In this project, I work with HTML and CSS to create a
+                                        responsive page . The
+                                        design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam
+                                        sollicitudin id. Quisque feugiat malesuada molestie. </p>
+                                </div>
+                                <div class="flex gap-3">
+                                    <button class="bg-[#2F80ED] rounded-lg w-32 h-14 text-white text-lg">Demo</button>
+                                    <button
+                                        class="bg-white rounded-lg w-32 h-14 text-[#2F80ED] border border-[#2F80ED] text-lg">Code</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-span-1 col-span-4 col-start-3">
+                    <!-- Recipe Blog -->
+                    <div class="shadow-lg rounded-xl p-2 mb-5 h-ful">
+                        <div class="lg:flex justify-between items-center">
+                            <div class="m-5 lg:w-1/2 lg:h-96">
+                                <img src="img/gallery.png" alt=""
+                                    class="rounded-lg lg:h-full lg:w-full lg:object-cover lg:object-top">
+                            </div>
+                            <div class="flex flex-col gap-5 p-5 lg:w-2/3">
+                                <p class="text-[#333333]">#HTML #CSS #responsive</p>
+                                <div>
+                                    <p class="text-2xl">My Gallery</p>
+                                    <p class="text-[#333333]">In this project, I work with HTML and CSS to create a
+                                        responsive page . The
+                                        design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam
+                                        sollicitudin id. Quisque feugiat malesuada molestie. </p>
+                                </div>
+                                <div class="flex gap-3">
+                                    <button class="bg-[#2F80ED] rounded-lg w-32 h-14 text-white text-lg">Demo</button>
+                                    <button
+                                        class="bg-white rounded-lg w-32 h-14 text-[#2F80ED] border border-[#2F80ED] text-lg">Code</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-span-1 col-span-4 col-start-3">
+                    <!-- Recipe Blog -->
+                    <div class="shadow-lg rounded-xl p-2 mb-5 h-ful">
+                        <div class="lg:flex justify-between items-center">
+                            <div class="m-5 lg:w-1/2 lg:h-96">
+                                <img src="img/checkout.png" alt=""
+                                    class="rounded-lg lg:h-full lg:w-full lg:object-cover lg:object-right-top">
+                            </div>
+                            <div class="flex flex-col gap-5 p-5 lg:w-2/3">
+                                <p class="text-[#333333]">#HTML #CSS #responsive</p>
+                                <div>
+                                    <p class="text-2xl">Checkout</p>
+                                    <p class="text-[#333333]">In this project, I work with HTML and CSS to create a
+                                        responsive page . The
+                                        design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam
+                                        sollicitudin id. Quisque feugiat malesuada molestie. </p>
+                                </div>
+                                <div class="flex gap-3">
+                                    <button class="bg-[#2F80ED] rounded-lg w-32 h-14 text-white text-lg">Demo</button>
+                                    <button
+                                        class="bg-white rounded-lg w-32 h-14 text-[#2F80ED] border border-[#2F80ED] text-lg">Code</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-span-2 col-span-2 row-start-3 lg:-mt-14">
+                    <!-- Experiences -->
+                    <div class="shadow-lg rounded-xl p-1 mb-5 h-5/6 flex flex-col justify-evenly ">
+                        <h1 class="text-[#4F4F4F] text-2xl ml-8 mt-10 mb-5">Experiences</h1>
+                        <div class="flex justify-center items-center gap-5 p-4 ml-10 w-5/6">
+                            <div class="w-20 self-start">
+                                <img src="img/adidas.png" alt="">
+                            </div>
+                            <div class="flex flex-col h-40 justify-between">
+                                <div>
+                                    <p class="text-sm text-[#828282]">Feb 2017 - Current</p>
+                                    <p class="font-semibold">Front-end developer</p>
+                                </div>
+                                <div>
+                                    <p class="text-[#828282]">Donec aliquam est dui, vel vestibulum diam sollicitudin
+                                        id. Quisque feugiat malesuada molestie.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center items-center gap-5 p-4 ml-10 w-5/6">
+                            <div class="w-20 self-start">
+                                <img src="img/h.png" alt="">
+                            </div>
+                            <div class="flex flex-col h-40 justify-between">
+                                <div>
+                                    <p class="text-sm text-[#828282]">Aug 2016 - Feb 2018</p>
+                                    <p class="font-semibold">Full-stack developer</p>
+                                </div>
+                                <div>
+                                    <p class="text-[#828282]">Donec aliquam est dui, vel vestibulum diam sollicitudin
+                                        id. Quisque feugiat malesuada molestie.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center items-center gap-5 p-4 ml-10 mb-10 w-5/6">
+                            <div class="w-20 self-start">
+                                <img src="img/letra-v.png" alt="">
+                            </div>
+                            <div class="flex flex-col h-40 justify-between">
+                                <div>
+                                    <p class="text-sm text-[#828282]">Jun 2015 - Aug 2016</p>
+                                    <p class="font-semibold">Junior front-end developer</p>
+                                </div>
+                                <div>
+                                    <p class="text-[#828282]">Donec aliquam est dui, vel vestibulum diam sollicitudin
+                                        id. Quisque feugiat malesuada molestie.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-span-2 col-span-2 row-start-5 lg:-mt-40">
+                    <div class="shadow-lg p-3 rounded-xl">
+                        <h1 class="m-5 text-2xl">Hobbies</h1>
+                        <div class="m-5">
+                            <img src="img/gaming.jpg" alt="" class="rounded-lg h-44 w-full object-cover">
+                            <div class="mt-5">
+                                <h3 class="text-lg font-semibold">Gaming</h3>
+                                <p class="text-[#828282]">Quisque feugiat malesuada molestie.</p>
+                            </div>
+                        </div>
+                        <div class="m-5">
+                            <img src="img/cooking.jpg" alt="" class="rounded-lg h-44 w-full object-cover">
+                            <div class="mt-5">
+                                <h3 class="text-lg font-semibold">Cooking</h3>
+                                <p class="text-[#828282]">Quisque feugiat malesuada molestie.</p>
+                            </div>
+                        </div>
+                        <div class="m-5">
+                            <img src="img/biking.jpg" alt="" class="rounded-lg h-44 w-full object-cover">
+                            <div class="mt-5">
+                                <h3 class="text-lg font-semibold">Biking</h3>
+                                <p class="text-[#828282]">Quisque feugiat malesuada molestie.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-4 row-span-1 lg:-mt-14">
+                    <div class="shadow-lg mt-10 mb-12 rounded-xl h-14">
+                        <div>
+                            <h1 class="text-lg p-5">Blogs (1)</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-span-4 row-span-1 lg:-mt-[27rem]">
+                    <div class="shadow-lg flex flex-col gap-5 p-5 mb-10 rounded-xl lg:flex-row lg:items-center">
+                        <div class="flex flex-col justify-center gap-12">
+                            <h6 class="text-[#E0E0E0]">Blog</h6>
+                            <h4 class="text-2xl w-44">How to organize your CSS</h4>
+                            <p class="text-[#828282] lg:w-80 w-auto">In this article I tell the story about Proin eu justo sit
+                                amet
+                                lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.
+                                Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada
+                                molestie.</p>
+                            <a href="#" class="text-sky-500">dev.to</a>
+                        </div>
+                        <div class="">
+                            <img src="img/lap.jpg" alt="" class="rounded-xl">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="text-center text-[#828282] m-10 font-[Montserrat]">created by DexterDC - devChallenges.io</p>
+    </footer>
+</body>
+
+</html>
