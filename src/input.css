@@ -6,3 +6,13 @@
     font-family: Montserrat;
     src: url(../fonts/Montserrat-Regular.ttf);
 }
+
+
+::-webkit-progress-value {
+    background-color: #2F80ED;
+    border-radius: 3rem;
+  }
+
+  ::-webkit-progress-bar {
+    border-radius: 3rem;
+ }
